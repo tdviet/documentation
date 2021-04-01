@@ -8,14 +8,75 @@ menu:
     weight: 10
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+## Request for information
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project.
+You can ask for more information about the services at:
+[here](https://www.egi.eu/more-information/)
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section.
+## Accessing EGI services
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+You can access EGI services from:
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+- [EGI Service Catalogue](https://www.egi.eu/services/)
+
+Depending on the access conditions, a service (or an instance of the service)
+may be open for any user, OR it may require requesting access (Ordering). The
+EGI Website together with the connected EGI Marketplace streamlines the process.
+
+## Access conditions
+
+EGI services use the following types of access conditions:
+
+- Wide access: Users can freely access the service. Login may be required but
+  it's possible with various institutional accounts (through EduGAIN) or with a
+  social IDs (e.g. Google). Example: the
+  [open instance of the EGI Notebooks](https://notebooks.egi.eu/)
+- Policy based: Users are granted access based on specific policies defined by
+  the service providers. Access needs to be requested, and will be checked for
+  such services. Example: Compute resources and tools allocated to researchers
+  in medical imaging ([Biomed VO](http://lsgc.org/biomed.html)).
+- Pay-for-use: Services are provided for a fee. Example:
+  [FitSM In-house course](https://www.egi.eu/services/fitsm-training/in-house-training/)
+
+The EGI user community support team handles access requests (orders) for the
+'Policy based' and 'Pay-for-use' access modes. They will respond to the request
+within maximum 5 work days. We normally contact you to have a short
+teleconference meeting to better understand your requirements so we will be able
+to identify resources and services that best match your needs. The meeting
+typically covers two topics:
+
+- What is the background of your request? (scientific domain, partners
+  countries, user bases, pay-for-use or not, etc.).
+- What are the technical details of your use case? (how much CPU cores, RAM per
+  CPU, software services, how long do you need, etc.)
+
+## Capacity allocation
+
+Service access is based on **Virtual Organisations (VOs)**. A Virtual
+Organisation is a group of users and the service providers from the federation
+who allocate capacity for a specific user group. Users are not individually
+enabled in the services but through VOs.
+
+VOs are fully managed by communities allowing them to manage their users and
+grant control access to the services and resources. Usually there is one-to-one
+mapping between research communities and Virtual Organizations (although this is
+not mandatory). Users can also belong to different VOs, e.g. they work with
+different communities. Fine-grained authorisation mechanisms can be enabled
+within a VOs, for example only a subset of the users of a given VO may have
+access rights to manage software applications for that VO.
+
+If we are able to support your case, then there are two options to support you:
+
+1. We grant you access to an existing service, for example to compute resource
+   pools (Virtual Organisations) that already exist in EGI for specific
+   scientific disciplines or for researchers in specific regions. (You can
+   browse these in the
+   [EGI Operations Portal](https://operations-portal.egi.eu/vo/). If there is a
+   suitable VO then we help you join it and use its services.
+
+1. If none of the existing resource pools are suitable for your use case, then
+   we create a new VO for your community. The procedure is as follows:
+   - We will contact our provider and negotiate resources for you.
+   - If there are providers happy to support you, we will sign a Service Level
+     Agreement (SLA) with you
+   - A new VO will be created for your community
